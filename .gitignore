@@ -1,0 +1,8 @@
+/.vscode
+/envs
+/.vs
+/obj
+/bin
+*.dll
+*.sln
+*.csproj
