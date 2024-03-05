@@ -24,22 +24,50 @@ If you dont have install this version go to the official page to download.
 
 ### Dependencies
 >[!NOTE]
->This works for Linux and Windows. 
+>To create the environment the command works same for Linux and Windows. 
+
+>[!NOTE]
+>I recommend create the environment if you're only work in local 
+
 
 
 First you have to create your environment to have more control in the project
 ```sh
 python -m venv env
 ```
-After you need install need install the next dependencies:
+Now you have execute the environment before to install the dependencies.
+
+#### Windows
+
+```sh
+./env/Scripts/activate
+```
+
+#### Linux
+```sh
+source ./env/bin/activate
+```
+
+After that you need install the next dependencies:
 - setuptools
+
+```sh
+pip install setuptools
+```
 - django
-- djangorestframework
+
+```sh
+pip install django 
+```
+- django rest framework
+
+```sh
+pip install djangorestframework
+```
 - coreapi
 
-To install them use this comand changing *"package"* by the name of the dependencie
 ```sh
-pip install 'package'
+pip install coreapi
 ```
 
 ### Test API
@@ -47,5 +75,13 @@ pip install 'package'
 For the test in local you have to write this command.
 ```sh
 python manage.py runserver
+```
+
+### Exit Environment
+
+If you want to exit of your environment you need put the next command:
+
+```sh
+deactivate
 ```
 
