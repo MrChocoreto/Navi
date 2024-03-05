@@ -23,8 +23,8 @@ If you dont have install this version go to the official page to download.
 [python.org/downloads](https://www.python.org/downloads/)
 
 ### Dependencies
-[!NOTE]
-This works for linux and windows. 
+>[!NOTE]
+>This works for Linux and Windows. 
 
 
 First you have to create your environment to have more control in the project
