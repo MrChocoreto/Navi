@@ -29,7 +29,7 @@ If you dont have install this version go to the official page to download.
 
 First you have to create your environment to have more control in the project
 ```sh
-python -m venv 'environment-name'
+python -m venv env
 ```
 After you need install need install the next dependencies:
 - setuptools
