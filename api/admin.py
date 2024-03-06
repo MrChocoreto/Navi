@@ -1,6 +1,5 @@
 from django.contrib import admin
-from .models import Programmer, ProgramTesters
+from .models import lean_body
 
 # Register your models here.
-admin.site.register(Programmer)
-admin.site.register(ProgramTesters)
+admin.site.register(lean_body)

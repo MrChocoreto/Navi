@@ -1,12 +1,8 @@
 from rest_framework import viewsets
-from .serializer import ProgrammerSerializer, ProgramTestersSerializer
-from .models import Programmer, ProgramTesters
+from .serializer import lean_bodySerializer
+from .models import lean_body
 
 # Create your views here.
-class ProgrammerViewSet(viewsets.ModelViewSet):
-    queryset = Programmer.objects.all()
-    serializer_class = ProgrammerSerializer
-
-class ProgramTestersViewSet(viewsets.ModelViewSet):
-    queryset = ProgramTesters.objects.all()
-    serializer_class = ProgramTestersSerializer
+class lean_bodyViewSet(viewsets.ModelViewSet):
+    queryset = lean_body.objects.all()
+    serializer_class = lean_bodySerializer

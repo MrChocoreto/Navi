@@ -1,14 +1,7 @@
-from dataclasses import fields
 from rest_framework import serializers
-from .models import Programmer, ProgramTesters
+from .models import lean_body
 
-class ProgrammerSerializer(serializers.ModelSerializer):
+class lean_bodySerializer(serializers.ModelSerializer):
     class Meta:
-        model = Programmer
-        # fields = ('fullnama', 'nakename')
-        fields = '__all__'
-
-class ProgramTestersSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = ProgramTesters
+        model = lean_body
         fields = '__all__'
