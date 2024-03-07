@@ -35,7 +35,7 @@ First you have to create your environment to have more control in the project
 ```sh
 python -m venv env
 ```
-Now you have execute the environment before to install the dependencies.
+Now you have execute the environment before to install the dependencies. To execute this commands you need be in the project path. 
 
 #### Windows
 
@@ -70,7 +70,22 @@ pip install djangorestframework
 pip install coreapi
 ```
 
-### Test API
+- mysql
+
+```sh
+pip install mysqlclient
+```
+
+### DataBase Setup
+
+To use the database you need create the next configuration in MariaDB
+
+- user: ```navi```
+- password: ```1>fCT)},dfVZ6Rbv9q*.```
+- port: ```3306```
+- host: ```localhost```
+
+### Initialize API
 
 For the test in local you have to write this command.
 ```sh

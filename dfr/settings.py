@@ -82,8 +82,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'HOST': 'localhost',   # O la dirección IP de tu servidor de base de datos
         'PORT': '3306',        # Puerto de conexión
-        'USER': 'root',
-        'PASSWORD': '995890',
+        'USER': 'navi',
+        'PASSWORD': '1>fCT)},dfVZ6Rbv9q*.',
         'NAME': 'navi'
     }
 }
