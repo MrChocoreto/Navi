@@ -87,6 +87,15 @@ To use the database you need create the next configuration in MariaDB
 
 ### Initialize API
 
+After to run the API you might do the next commands.
+```sh
+python manage.py makemigrations
+```
+```sh
+python manage.py migrate
+```
+
+
 For the test in local you have to write this command.
 ```sh
 python manage.py runserver
