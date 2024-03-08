@@ -93,6 +93,14 @@ Then, give it the correct access to the database
 ```sql
 GRANT USAGE ON *.* TO 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*'
 ```
+Give the user access to the database
+```sql
+GRANT ALL ON `navi`.* TO 'navi'@localhost;
+```
+Apply the changes
+```sql
+FLUSH PRIVILEGES;
+```
 
 ### Initialize API
 
