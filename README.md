@@ -85,6 +85,15 @@ To use the database you need create the next configuration in MariaDB
 - port: ```3306```
 - host: ```localhost```
 
+To create the user in database if is not created:
+```sql
+CREATE USER 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*';
+```
+Then, give it the correct access to the database
+```sql
+GRANT USAGE ON *.* TO 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*'
+```
+
 ### Initialize API
 
 After to run the API you might do the next commands.
