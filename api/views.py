@@ -1,8 +1,8 @@
 from rest_framework import viewsets
-from .serializer import lean_bodySerializer
-from .models import lean_body
+from .serializer import personaSerializer
+from .models import persona
 
 # Create your views here.
-class lean_bodyViewSet(viewsets.ModelViewSet):
-    queryset = lean_body.objects.all()
-    serializer_class = lean_bodySerializer
+class personaViewSet(viewsets.ModelViewSet):
+    queryset = persona.objects.all()
+    serializer_class = personaSerializer

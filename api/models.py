@@ -1,10 +1,7 @@
-from django.db import models
-# from .data_models.testers import ProgramTesters
+from .data_models.persona import persona
+from .data_models.control_citas import control_citas
+from .data_models.datos_paciente import datos_paciente
+from .data_models.registro_consulta import registro_consulta
+from .data_models.ccdo import composicion_corporal_diagnostico_obesidad
 
-# Create your models here.
-class lean_body(models.Model):
-    fullname = models.CharField(max_length = 100)
-    nickname = models.CharField(max_length = 50)
-    # age = models.PositiveSmallIntegerField()
-    # is_active = models.BooleanField(default=True)
 

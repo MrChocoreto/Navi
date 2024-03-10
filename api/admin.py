@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import lean_body
+from .models import persona
 
 # Register your models here.
-admin.site.register(lean_body)
+admin.site.register(persona)

@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from .models import lean_body
+from .models import persona
 
-class lean_bodySerializer(serializers.ModelSerializer):
+class personaSerializer(serializers.ModelSerializer):
     class Meta:
-        model = lean_body
+        model = persona
         fields = '__all__'
