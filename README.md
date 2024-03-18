@@ -48,7 +48,7 @@ Now you have execute the environment before to install the dependencies. To exec
 source ./env/bin/activate
 ```
 
-After that you need install the next dependencies:
+After that,              you need install the next dependencies:
 - setuptools
 
 ```sh
@@ -72,6 +72,19 @@ pip install coreapi
 
 - mysql
 
+If you are using Ubuntu or a Debian distro based, you need to run the next command:
+
+```sh
+sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
+```
+If you are using Red Hat / CentOs distribution, you have to run:
+```sh
+sudo yum install python3-devel mysql-devel pkgconfig
+```
+If you are using Fedora, replace ```yum``` with ```dnf```
+
+Then:
+
 ```sh
 pip install mysqlclient
 ```
@@ -87,11 +100,11 @@ To use the database you need create the next configuration in MariaDB
 
 To create the user in database if is not created:
 ```sql
-CREATE USER 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*';
+CREATE USER 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*.';
 ```
 Then, give it the correct access to the database
 ```sql
-GRANT USAGE ON *.* TO 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*'
+GRANT USAGE ON *.* TO 'navi'@localhost IDENTIFIED BY '1>fCT)},dfVZ6Rbv9q*.';
 ```
 Give the user access to the database
 ```sql
