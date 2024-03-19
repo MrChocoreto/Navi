@@ -1,5 +1,5 @@
 from django.db import models
-from .registro_consulta import registro_consulta
+from api.data_models.registro_consulta import registro_consulta
 
 class composicion_corporal_diagnostico_obesidad(models.Model):
     id_comp_corp = models.IntegerField(primary_key=True)

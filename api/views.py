@@ -1,9 +1,9 @@
 from rest_framework import viewsets
-from .serializer import personaSerializer, ccdoSerializer, controlCitasSerializer
-from .serializer import datosPacienteSerializer, registroConsultaSerializer
+from api.serializer import personaSerializer, ccdoSerializer, controlCitasSerializer
+from api.serializer import datosPacienteSerializer, registroConsultaSerializer
 
-from .models import composicion_corporal_diagnostico_obesidad, registro_consulta
-from .models import persona, control_citas, datos_paciente
+from api.models import composicion_corporal_diagnostico_obesidad, registro_consulta
+from api.models import persona, control_citas, datos_paciente
 
 # Create your views here.
 class personaViewSet(viewsets.ModelViewSet):

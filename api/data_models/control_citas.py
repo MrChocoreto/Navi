@@ -1,5 +1,5 @@
 from django.db import models
-from .datos_paciente import datos_paciente
+from api.data_models.datos_paciente import datos_paciente
 
 class control_citas(models.Model):
     id_cita = models.AutoField(primary_key=True)
