@@ -115,6 +115,19 @@ Apply the changes
 FLUSH PRIVILEGES;
 ```
 
+#### Optional configurations
+If you are using vscode, there are recommend extensions, one of them is pylint, you have to install pylint-django in your
+environment
+```sh
+pip install pylint-django
+```
+
+After that, you have to modify the configuration of pylint in vscode, and add the following args,
+you add this at ```Configuration -> pylint -> Pylint:args``` in VSCode UI
+```sh
+"pylintArgs": ["--load-plugins=pylint_django" ]
+```
+
 ### Initialize API
 
 After to run the API you might do the next commands.
