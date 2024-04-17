@@ -72,19 +72,6 @@ pip install coreapi
 
 - mysql
 
-If you are using Ubuntu or a Debian distro based, you need to run the next command:
-
-```sh
-sudo apt-get install python3-dev default-libmysqlclient-dev build-essential pkg-config
-```
-If you are using Red Hat / CentOs distribution, you have to run:
-```sh
-sudo yum install python3-devel mysql-devel pkgconfig
-```
-If you are using Fedora, replace ```yum``` with ```dnf```
-
-Then:
-
 ```sh
 pip install mysqlclient
 ```
